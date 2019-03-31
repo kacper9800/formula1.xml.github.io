@@ -1,0 +1,42 @@
+h1,
+h2,
+h3,
+h4{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1:hover {
+    color: white;
+}
+
+h1 {
+    color: cornflowerblue;
+    font-size: 55px;
+    
+}
+h2:hover {
+    font-size: 25px;
+    color:wheat;
+}
+body {
+    text-align: center;
+    background: #1A2980;
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+    background: linear-gradient(to right, #26D0CE, #1A2980);
+    font-family: sans-serif;
+}
+
+table {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table:hover {
+    color: white;
+}
+
+formula1 item name:hover {
+    background-color: fuchsia;
+}

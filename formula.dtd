@@ -1,0 +1,87 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT formula1 (item)+>
+<!ATTLIST formula1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT item (name,((year,drivers,engine)|(location,length,date,aoc)|((age|country)+,height,weight,team,wins)),photo)>
+
+<!ATTLIST item
+  xmlns CDATA #FIXED ''
+  type NMTOKEN #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT year (#PCDATA)>
+<!ATTLIST year
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT drivers (first,second)>
+<!ATTLIST drivers
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT engine (power,producer)>
+<!ATTLIST engine
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT location (#PCDATA)>
+<!ATTLIST location
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT length (#PCDATA)>
+<!ATTLIST length
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT aoc (#PCDATA)>
+<!ATTLIST aoc
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT age (#PCDATA)>
+<!ATTLIST age
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT country (#PCDATA)>
+<!ATTLIST country
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT height (#PCDATA)>
+<!ATTLIST height
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT weight (#PCDATA)>
+<!ATTLIST weight
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT team (#PCDATA)>
+<!ATTLIST team
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT wins (#PCDATA)>
+<!ATTLIST wins
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT photo (#PCDATA)>
+<!ATTLIST photo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT first (#PCDATA)>
+<!ATTLIST first
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT second (#PCDATA)>
+<!ATTLIST second
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT power (#PCDATA)>
+<!ATTLIST power
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT producer (#PCDATA)>
+<!ATTLIST producer
+  xmlns CDATA #FIXED ''>

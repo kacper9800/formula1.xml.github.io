@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="formula1.xslt"?>
+<!DOCTYPE formula1 SYSTEM "formula1.dtd">
+<formula1>
+    <item type="driver">
+        <name>Robert Kubica</name>
+        <age>34</age>
+        <country>Poland</country>
+        <height>184 cm</height>
+        <weight>70 kg</weight>
+        <team>Williams F1</team>
+        <wins>1</wins>
+        <photo>https://wrc.net.pl/app/uploads/2019/01/5a5df45e1d57b0_48136003-680x345-c-center.jpg</photo>
+    </item>
+
+    <item type="driver">
+        <name>Lewis Hamilton</name>
+        <country>Great Britain</country>
+        <age>33</age>
+        <height>174 cm</height>
+        <weight>70 kg</weight>
+        <team>Mercedes Petronas AMG</team>
+        <wins>73</wins>
+        <photo>https://www.formula1.com/content/fom-website/en/drivers/lewis-hamilton/_jcr_content/image16x9.img.1536.high.jpg</photo>
+    </item>
+    
+    <item type="driver">
+        <name>Kimi Raikkonen</name>
+        <country>Finland</country>
+        <age>39</age>
+        <height>182 cm</height>
+        <weight>73 kg</weight>
+        <team>Alfa Romeo Sauber F1 Team</team>
+        <wins>23</wins>
+        <photo>https://cdn-2.motorsport.com/static/img/mgl/8000000/8020000/8026000/8026400/8026442/s8/f1-australian-gp-2016-kimi-raikkonen-ferrari.jpg</photo>
+    </item>
+
+    <item type="driver">
+        <name>Lance Stroll</name>
+        <country>Canada</country>
+        <age>21</age>
+        <height>173 cm</height>
+        <weight>64 kg</weight>
+        <team>Racing Point</team>
+        <wins>0</wins>
+        <photo>http://f1i.com/wp-content/uploads/2018/10/Lance-Stroll-725x500.jpg</photo>
+    </item>
+
+    <item type="driver">
+        <name>Charles Leclerc</name>
+        <age>21</age>
+        <country>Monaco</country>
+        <height>180 cm</height>
+        <weight>70 kg</weight>
+        <team>Scuderria Ferrari</team>
+        <wins>0</wins>
+        <photo>https://www.essentiallysports.com/wp-content/uploads/image16x9.img_.1536.high_-2.jpg</photo>
+    </item>
+
+    <item type="team">
+        <name>Williams F1</name>
+        <year>1977</year>
+        <drivers>
+            <first>Robert Kubica</first>
+            <second>George Russel</second>
+        </drivers>
+        <engine>
+            <power>970 KM</power>
+            <producer>MERCEDES</producer>
+        </engine>
+        <photo>https://d2d0b2rxqzh1q5.cloudfront.net/sv/2.183/dir/199/image/199fb93144f3cb065fc86eb57bd82910.jpg</photo>
+    </item>
+
+    <item type="team">
+        <name>Mercedes Petronas AMG</name>
+        <year>2010</year>
+        <drivers>
+            <first>Lewis Hamilton</first>
+            <second>Valteri Bottas</second>
+        </drivers>
+        <engine>
+            <power>970 KM</power>
+            <producer>MERCEDES</producer>
+        </engine>
+        <photo>https://cdn-7.motorsport.com/static/img/mgl/4200000/4280000/4282000/4282700/4282721/s8/f1-monaco-gp-2015-lewis-hamilton-mercedes-amg-f1-team.jpg</photo>
+    </item>
+
+    <item type="team">
+        <name>Scuderria Ferrari</name>
+        <year>1929</year>
+        <drivers>
+            <first>Sebastian Vettel</first>
+            <second>Charles Leclerc</second>
+        </drivers>
+        <engine>
+            <power>960 KM</power>
+            <producer>FERRARI</producer>
+        </engine>
+        <photo>https://cdn-2.motorsport.com/images/amp/6OeoVdP2/s6/f1-hungarian-gp-2018-sebastian.jpg</photo>
+    </item>
+
+    <item type="track">
+        <name>Yas Marina Circuit</name>
+        <location>Yas</location>
+        <length></length>
+        <date>2009</date>
+        <aoc>21</aoc>
+        <photo>https://www.rvsportreizen.nl/wp-content/uploads/2016/06/Circuit-Abu-Dhabi-nacht.jpg</photo>
+        <!--amount of corners -->
+    </item>
+    <item type="track">
+        <name>Autodromo Nazionale di Monza</name>
+        <location>Monza</location>
+        <length>5,793 km</length>
+        <date>1922</date>
+        <aoc>10</aoc><!--amount of corners -->
+        <photo>http://www.turismo.monza.it/sites/default/files/styles/lancio_homepage_x2/public/destinazioni/immagini/112/autodromo_637x314.jpg?itok=RRzW0RpF</photo>
+        
+    </item>
+    <item type="track">
+        <name>Circuit of the Americas</name>
+        <location>Austin</location>
+        <length>5,5 km</length>
+        <date>2012</date>
+        <aoc>20</aoc><!--amount of corners -->
+        <photo>http://www.austinfitmagazine.com/November-2013/Win-the-Ultimate-F1-USGP-Bucket-List-Prize-Package-from-Circuit-of-The-Americas-1/Circuit-of-Americas.jpg</photo>
+    
+    </item>
+    <item type="track">
+        <name>Suzuka International Racing Course</name>
+        <location>Prefektura Mie</location>
+        <length>5,807 km</length>
+        <date>1987</date>
+        <aoc>17</aoc>
+        <photo>https://s3-eu-west-1.amazonaws.com/crash.net/styles/article/s3/original/635151862632721492.jpg?itok=K3ph0ATg</photo>
+        <!--amount of corners -->
+    </item>
+</formula1>
